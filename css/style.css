@@ -11,6 +11,11 @@ h1 {
         font-family: 'Alegreya Sans', sans-serif;
 }
 
+h4 {
+        text-align: center;
+        color: #0b7ba8;
+}
+
 .lead{
         font-family: 'Lato', sans-serif;
         font-size: 14px;
@@ -18,4 +23,9 @@ h1 {
 
 #enroll-text {
         color: #0b7ba8
+}
+
+thead{
+        color: #0b7ba8;
+        font-style: strong;
 }
