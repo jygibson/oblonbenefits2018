@@ -1,0 +1,21 @@
+body {
+        background: url(../images/home-tab-content-bg.png) no-repeat #DCDCDC;
+}
+
+.jumbotron-fluid {
+        background: url(../images/home-tab-content-bg.png) no-repeat #0b7ba8;
+        color: white;
+}
+
+h1 {
+        font-family: 'Alegreya Sans', sans-serif;
+}
+
+.lead{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+}
+
+#enroll-text {
+        color: #0b7ba8
+}
