@@ -2,9 +2,17 @@ body {
         background: url(../images/home-tab-content-bg.png) no-repeat #DCDCDC;
 }
 
+.navbar {
+        background-color: #ffffff;
+}
+
 .jumbotron-fluid {
         background: url(../images/home-tab-content-bg.png) no-repeat #0b7ba8;
         color: white;
+}
+.container-fluid{
+        padding-left: 30px;
+        padding-right: 30px;
 }
 
 h1 {
@@ -47,7 +55,19 @@ p {
         font-family: 'Lato', sans-serif;      
 }
 
-#self, #dependents, #children {
+/* .self-el {
+        padding: 5px;
+        border-right: 1px;
         border-style: dotted;
-        border-color: greenyellow;
+        border-color: green;
+} */
+
+/* .dep-el {
+        padding-right: 5px;
+} */
+
+.vl {
+        border-left: 1px;
+        border-color: green;
+        height: 500px;
 }

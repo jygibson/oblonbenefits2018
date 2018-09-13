@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-light bg-light">
         <a class="navbar-brand" href="www.oblon.com">
             <img src="images/50th.png" width="150" height="30" alt="50th Anniversary">
         </a>
@@ -24,7 +24,7 @@
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="eligiblility.html">Eligibility</a>
+                <a class="nav-link active" href="eligibility.html">Eligibility</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Medical</a>
@@ -51,57 +51,77 @@
                 get back to you ASAP!</p>
         </div>
     </div>
-    <div id="row">
-        <h4>Your Human Resources Team </h4>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Karen Lamelle</td>
-                    <td>HR Director</td>
-                    <td><a href="mailto:klamelle@oblon.com">klamelle@oblon.com</a></td>
-                </tr>
-                <tr>
-                    <td>Jennifer Gibson</td>
-                    <td>Senior HR Generalist</td>
-                    <td><a href="mailto:jgibson@oblon.com">jgibson@oblon.com</a></td>
-                </tr>
-                <tr>
-                    <tr>
-                        <td>Dinah Outten</td>
-                        <td>Senior HR Generalist</td>
-                        <td><a href="mailto:doutten@oblon.com">doutten@oblon.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Sheron Boyd</td>
-                        <td>Compensation and Benefits Strategy Analyst</td>
-                        <td><a href="mailto:sboyd@oblon.com">sboyd@oblon.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Jean Hagen</td>
-                        <td>Payroll Manager</td>
-                        <td><a href="mailto:jhagen@oblon.com">jhagen@oblon.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Cindy Jackson</td>
-                        <td>HR Generalist</td>
-                        <td><a href="mailto:cjackson@oblon.com">cjackson@oblon.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Maria Canfield</td>
-                        <td>HR Administrative Assistant</td>
-                        <td><a href="mailto:mcanfield@oblon.com">mcanfield@oblon.com</a></td>
-                    </tr>
-            </tbody>
-        </table>
-    </div>
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Your email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jdoe@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Your Question</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-outline-info">Submit</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <h4>Your Human Resources Team </h4>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Karen Lamelle</td>
+                            <td>HR Director</td>
+                            <td><a href="mailto:klamelle@oblon.com">klamelle@oblon.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>Jennifer Gibson</td>
+                            <td>Senior HR Generalist</td>
+                            <td><a href="mailto:jgibson@oblon.com">jgibson@oblon.com</a></td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td>Dinah Outten</td>
+                                <td>Senior HR Generalist</td>
+                                <td><a href="mailto:doutten@oblon.com">doutten@oblon.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sheron Boyd</td>
+                                <td>Compensation and Benefits Strategy Analyst</td>
+                                <td><a href="mailto:sboyd@oblon.com">sboyd@oblon.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jean Hagen</td>
+                                <td>Payroll Manager</td>
+                                <td><a href="mailto:jhagen@oblon.com">jhagen@oblon.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Cindy Jackson</td>
+                                <td>HR Generalist</td>
+                                <td><a href="mailto:cjackson@oblon.com">cjackson@oblon.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Maria Canfield</td>
+                                <td>HR Administrative Assistant</td>
+                                <td><a href="mailto:mcanfield@oblon.com">mcanfield@oblon.com</a></td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</div>
 </body>
 
 </html>
