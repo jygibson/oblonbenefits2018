@@ -29,3 +29,7 @@ thead{
         color: #0b7ba8;
         font-style: strong;
 }
+
+p {
+        text-align: center;
+}
