@@ -11,8 +11,9 @@ body {
         color: white;
 }
 .container-fluid{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 30px;
 }
 
 h1 {
@@ -23,6 +24,10 @@ h4,h3 {
         text-align: center;
         color: #0b7ba8;
         font-family: 'Alegreya Sans', sans-serif;
+}
+
+#hsa-reminder{
+        color: green;
 }
 
 h5{
@@ -70,4 +75,18 @@ p {
         border-left: 1px;
         border-color: green;
         height: 500px;
+}
+
+th {
+        font-size: 32px;
+        text-align: center;
+}
+
+.terms {
+        text-align: center;
+        font-weight: bold;
+}
+
+.definition {
+        width: 900px;
 }
