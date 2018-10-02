@@ -60,6 +60,10 @@ p {
         font-family: 'Lato', sans-serif;      
 }
 
+#premiums {
+        align-items: center;
+}
+
 /* .self-el {
         padding: 5px;
         border-right: 1px;

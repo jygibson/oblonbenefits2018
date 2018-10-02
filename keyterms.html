@@ -6,11 +6,11 @@
     <title>Oblon Benefits 2018-2019</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -20,48 +20,52 @@
 </head>
 
 <body>
-        <nav class="navbar sticky-top navbar-light bg-light">
-                <a class="navbar-brand" href="www.oblon.com">
-                  <img src="images/50th.png" width="150" height="30" alt="50th Anniversary">
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="www.oblon.com">
+            <img src="images/50th.png" width="150" height="30" alt="50th Anniversary">
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="eligibility.html">Eligibility</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="medical.html" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Health Insurance
                 </a>
-                <ul class="nav justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="eligibility.html">Eligibility</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle active" href="medical.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Medical
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item active" href="hsa.html">Health Savings Accounts</a>
-                        <a class="dropdown-item" href="#">Flexible Spending Accounts</a>
-                        <a class="dropdown-item" href="#">Preventive Care</a>
-                        <a class="dropdown-item" href="#">Health Advocate</a>
-                        <a class="dropdown-item" href="keyterms.html">Key Vocabulary</a>
-                      </div>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Dental</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Vision</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Voluntary Benefits</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </nav>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="medical.html">General Medical Info</a>
+                    <a class="dropdown-item" href="planb.html">Medical Plan B</a>
+                    <a class="dropdown-item" href="planc.html">Medical Plan C</a>
+                    <a class="dropdown-item" href="hsa.html">Health Savings Accounts</a>
+                    <a class="dropdown-item" href="#">Flexible Spending Accounts</a>
+                    <a class="dropdown-item" href="#">Preventive Care</a>
+                    <a class="dropdown-item" href="#">Health Advocate</a>
+                    <a class="dropdown-item" href="keyterms.html">Key Vocabulary</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dental</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vision</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Voluntary Benefits</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Key Terms</h1>
-            <p class="lead">The following vocabulary is crucial to your understanding of health insurance. Additionally, a great
+            <p class="lead">The following vocabulary is crucial to your understanding of health insurance.
+                Additionally, a great
                 resource for easy to understand terms is the Federal health care site, <a href="https://www.healthcare.gov/glossary/">https://www.healthcare.gov/glossary/</a></p>
         </div>
     </div>
@@ -76,13 +80,15 @@
             <tbody>
                 <tr>
                     <td class="terms">Premiums</td>
-                    <td class="definition">The amount of money deducted from your paycheck to ensure that you have insurance. It is what
-                        you pay in order to be covered. At Oblon, you pay a percentage of the premium while Oblon pays
-                        the rest. The premium is the cost of being covered- not the cost of care. </td>
+                    <td class="definition">The amount of money deducted from your paycheck to ensure that you have
+                        insurance. It is what
+                        you pay in order to be covered. The premium is the cost of being covered- not the cost of care.
+                    </td>
                 </tr>
                 <tr>
                     <td class="terms">Deductible</td>
-                    <td class="definition">For insurance plans, you need to spend a certain amount of money before the plan begins sharing
+                    <td class="definition">For insurance plans, you need to spend a certain amount of money before the
+                        plan begins sharing
                         the costs. This amount of money is called the deductible. Depending on the plan and it's setup,
                         the deductible can be large or small. If the deductible is over $1,300 for an individual and
                         $2,600 for a family, it's considered a "high deductible" plan, and eligible to be paired with a
@@ -91,7 +97,8 @@
                 </tr>
                 <tr>
                     <td class="terms">Co-insurance</td>
-                    <td class="definition">Once you meet your deductible, your plan begins to share costs with you for doctor visits,
+                    <td class="definition">Once you meet your deductible, your plan begins to share costs with you for
+                        doctor visits,
                         procedures, etc. The plan pays a certain percentage of the cost, and you pay a certain
                         percentage. The amount that you are paying is the co-insurance. For example, if your plan pays
                         90% toward a specialist visit, the 10% they don’t pay is your co-insurance. You pay
@@ -99,38 +106,44 @@
                         stay in-network or go out-of-network).</td>
                 </tr>
                 <td class="terms">Out of Pocket Maximum</td>
-                <td class="definition">The out of pocket maximum is the most you will pay in a single plan year. It does not include your
+                <td class="definition">The out of pocket maximum is the most you will pay in a single plan year. It
+                    does not include your
                     premiums, or any service your plan does not cover. Once you reach this number, the plan pays 100%
                     of all services. The maximum is typically different for individual coverage versus family coverage.
                     The ACA puts limits on how high these can be.</td>
                 </tr>
                 <td class="terms">Co-pay(ment)</td>
-                <td class="definition">This is a fixed amount that you pay for a specific service. For example, despite what the full cost
+                <td class="definition">This is a fixed amount that you pay for a specific service. For example, despite
+                    what the full cost
                     of a office visit to your doctor may be, you will always pay just $10 (or whatever the plan's
                     co-pay is) instead. This can apply to
                     prescriptions as well. Plans B and C do not have office visit co-pays, but once you meet your
                     deductible, presscriptions go to co-pay tiers until you meet your out of pocket maximum.</td>
                 </tr>
                 <td class="terms">In-Network</td>
-                <td class="definition">This refers to a provider or a facility that is within a insurance plan’s “network of approved
+                <td class="definition">This refers to a provider or a facility that is within a insurance plan’s
+                    “network of approved
                     providers”. This means they have agreed to a negotiated discount rate for plan participants (that’s
                     you) and are contractually obligated to comply and accept plan payments in full. You will pay less
                     (and more reasonable amounts) when using an in-network doctor or facility.</td>
                 </tr>
             </tbody>
             <td class="terms">Out-of-Network</td>
-            <td class="definition">This refers to a provider or facility that is outside an insurance plan’s “network of approved
+            <td class="definition">This refers to a provider or facility that is outside an insurance plan’s “network
+                of approved
                 providers”. They are not contracted to any rate or discount and they can charge however much they
                 please, and you will not only typically pay more in general, but you will likely be stuck paying much
                 more.</td>
             </tr>
             </tbody>
             <td class="terms">Dependent</td>
-            <td class="definition">Basically, its your spouse and your children. The IRS gets a little more technical, but for most
+            <td class="definition">Basically, its your spouse and your children. The IRS gets a little more technical,
+                but for most
                 people, this is it. Click <a href="eligibility.html">here</a> to learn about our plan eligiblity.</td>
             </tr>
             <td class="terms">Preventive Care</td>
-            <td class="definition">These are routine health care things that you need to do to stay healthy and prevent future health
+            <td class="definition">These are routine health care things that you need to do to stay healthy and prevent
+                future health
                 issues. This includes annual physicals, well-woman exams, screenings. Under the ACA, preventive care
                 costs are covered at 100%. Haven’t had a physical in years? Time to go.</td>
             </tr>
