@@ -2,7 +2,7 @@ body {
         background: url(../images/home-tab-content-bg.png) no-repeat #DCDCDC;
 }
 
-.navbar {
+.sticky-top {
         background-color: #ffffff;
 }
 
@@ -10,7 +10,7 @@ body {
         background: url(../images/home-tab-content-bg.png) no-repeat #0b7ba8;
         color: white;
 }
-.container-fluid{
+.container{
         padding-left: 60px;
         padding-right: 60px;
         padding-bottom: 30px;
