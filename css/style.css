@@ -20,6 +20,12 @@ h1 {
         font-family: 'Alegreya Sans', sans-serif;
 }
 
+h2 {
+        text-align: center;
+        color: #0b7ba8;
+        font-family: 'Alegreya Sans', sans-serif;      
+}
+
 h4,h3 {
         text-align: center;
         color: #0b7ba8;
@@ -34,6 +40,10 @@ h5{
         text-align: center;
         font-family: 'Alegreya Sans', sans-serif;
         color: #0b7ba8;
+}
+
+em {
+        font-style: italic;
 }
 
 .lead{
@@ -93,4 +103,11 @@ th {
 
 .definition {
         width: 900px;
+}
+
+.preventive {
+        border: 5px;
+        padding: 15px;
+        border-color: green;
+        border-style: double;
 }
