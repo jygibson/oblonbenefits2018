@@ -151,3 +151,15 @@ th {
 ul {
         list-style-type: circle;
 }
+
+
+.table-rows {
+        font-size: 16px;
+        text-align: center;
+}
+.table-rows2 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        color: #0b7ba8;
+}
