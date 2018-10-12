@@ -32,6 +32,42 @@ h4,h3 {
         font-family: 'Alegreya Sans', sans-serif;
 }
 
+
+#testimonial {
+                width: 400px;
+                height: 250px;
+                background: rgb(141, 141, 140);
+                position: relative;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+              }
+#testimonial:before {
+                content: "";
+                position: absolute;
+                right: 100%;
+                top: 26px;
+                width: 0;
+                height: 0;
+                border-top: 13px solid transparent;
+                border-right: 26px solid rgb(141, 141, 140);
+                border-bottom: 13px solid transparent;
+              }
+
+.quote {
+
+        width: 350px;
+        height: 200px;
+        padding: 20px;
+        color: lawngreen;
+        font-size: 18px;
+              }
+
+#name {
+        padding-left: 30px;
+        color: white
+}
+
 #hsa-reminder{
         color: green;
 }
@@ -110,4 +146,8 @@ th {
         padding: 15px;
         border-color: green;
         border-style: double;
+}
+
+ul {
+        list-style-type: circle;
 }
