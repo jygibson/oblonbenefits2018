@@ -20,7 +20,7 @@ html, body {
 .container{
         padding-left: 60px;
         padding-right: 60px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
 }
 
 h1 {
@@ -204,7 +204,6 @@ ul {
        }
 
 .sticky-bottom{
-        height: 50px;
         border-top: 1px solid #0b7ba8;
         background-color: lightgray;
 }
