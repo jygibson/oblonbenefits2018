@@ -204,13 +204,13 @@ ul {
        }
 
 .sticky-bottom{
+        height:60px;
         border-top: 1px solid #0b7ba8;
         background-color: lightgray;
 }
 
 .push {
         height: 60px;
-        background-color: lightgray;
 }
 
 .footer-link {
