@@ -1,6 +1,12 @@
-body {
+html, body {
         background: url(../images/home-tab-content-bg.png) no-repeat #DCDCDC;
+        height:100%;
         margin: 0px;
+}
+
+.wrapper {
+        min-height: 100%;
+        margin-bottom: -45;
 }
 
 .sticky-top {
@@ -197,8 +203,14 @@ ul {
          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230b7ba8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
        }
 
-.sticky-bottom {
+.sticky-bottom{
+        height: 45px;
+        border-top: 1px solid #0b7ba8;
         background-color: lightgray;
+}
+
+.push {
+        height: 45px;
 }
 
 .footer-link {
